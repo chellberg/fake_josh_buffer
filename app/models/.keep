@@ -1,0 +1,7 @@
+class Post < ActiveRecord::Base
+  attr_accessible :text
+  attr_accessible :url
+   
+  self.per_page = 10
+
+end
